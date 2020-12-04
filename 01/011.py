@@ -1,4 +1,4 @@
-f = open('./input.txt', 'r')
+f = open('./01_input.txt', 'r')
 
 lines = f.read().splitlines()
 num = list(map(lambda x: int(x), lines))
